@@ -9,5 +9,5 @@ def find_palindrome(value):
         return False
 
 if __name__ == '__main__':
-    value = "racecar"
+    value = input("Enter a word").lower().strip()
     print(find_palindrome(value))
